@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import useComponentSize from '@rehooks/component-size'
 import { start, stop, animating, windowResize } from './renderer'
 
-const BoxesSyncDemo = React.memo(() => {
+const PhysicsDemo = React.memo(() => {
     let containerRef = useRef(null)
     const [initialized, setInitialized] = useState(false)
     const [playingStateChangeCounter, setPlayingStateChangeCounter] = useState(0)
@@ -38,4 +38,4 @@ const BoxesSyncDemo = React.memo(() => {
     )
 })
 
-export default BoxesSyncDemo
+export default PhysicsDemo

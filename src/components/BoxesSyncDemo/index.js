@@ -1,3 +1,3 @@
-import BoxesSyncDemo from './BoxesSyncDemo'
+import PhysicsDemo from './PhysicsDemo'
 
-export default BoxesSyncDemo
+export default PhysicsDemo
