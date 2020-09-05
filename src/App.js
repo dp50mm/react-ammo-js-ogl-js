@@ -1,10 +1,10 @@
 import React from 'react';
-import BoxesSyncDemo from 'components/BoxesSyncDemo'
+import PhysicsDemo from 'components/PhysicsDemo'
 
 function App() {
   return (
     <div className="App">
-      <BoxesSyncDemo />
+      <PhysicsDemo />
     </div>
   );
 }
